@@ -60,7 +60,7 @@ Aşağıda basit bir örnek iş akışı gösterilmiştir:
 ![Örnek Orange İş Akışı](img/example_workflow.png)
 
 Repodaki `example` klasöründe örnek bir Orange iş akışı dosyası bulabilirsiniz. 
-Lütfen kendi proje iş akışı dosyanızı yükleyiniz. 
+- Lütfen kendi proje iş akışı dosyanızı `project` klasörüne yükleyiniz. 
 
 ### Değerlendirme Kriterleri
 
