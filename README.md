@@ -1,206 +1,91 @@
-# Algorithms and Programming II - Semester Capstone Project
+# YMT5270 - Yenilikçi Makine Öğrenme Ortamları
+## Ara Sınav Projesi
 
-## Overview
+### Genel Bakış
 
-Welcome to the Algorithms and Programming II course project at Fırat University, Technology Faculty, Software Engineering Department. This project involves developing interactive web applications to implement, visualize, and analyze algorithms using Python and Streamlit.
+Bu ödev, YMT5270 - Yenilikçi Makine Öğrenme Ortamları dersi kapsamında verilen ara sınav projesidir. Bu projede, kod yazmadan görsel programlama aracı olan [Orange Data Mining](https://orangedatamining.com/) platformunu kullanarak veri analizi ve makine öğrenmesi uygulamaları geliştirmeniz beklenmektedir.
 
-## Learning Objectives
+### Proje Hedefleri
 
-This project is designed to help you:
+Bu projenin ana hedefleri:
 
-- Implement complex algorithms in Python
-- Create interactive visualizations that demonstrate algorithm behavior
-- Analyze and understand the time and space complexity of algorithms
-- Practice modern software development workflows using Git and GitHub
-- Gain experience with web application development and deployment
-- Improve technical documentation skills
+1. Orange Data Mining platformunu etkili bir şekilde kullanabilme becerisi kazanmak
+2. Keşifsel Veri Analizi (EDA) tekniklerini uygulamak
+3. Seçilen veri setine uygun makine öğrenmesi yöntemlerini uygulamak
+4. Veri görselleştirme ve sonuçları yorumlama becerilerini geliştirmek
 
-## Technology Stack
+### Gereksinimler
 
-- **Programming Language:** Python 3.8+
-- **Web Framework:** Streamlit
-- **Version Control:** Git and GitHub
-- **Deployment:** Streamlit Cloud
+Projeyi tamamlamak için aşağıdaki gereksinimleri yerine getirmeniz gerekmektedir:
 
-## Getting Started
+1. **Veri Seti Seçimi**: 
+   - [Kaggle](https://www.kaggle.com/datasets), [UCI Machine Learning Repository](https://archive.ics.uci.edu/), [Google Dataset Search](https://datasetsearch.research.google.com/) gibi kaynaklardan bir veri seti seçilmelidir.
+   - Veri seti tercihen en az 5 öznitelik ve 100 örnek içermelidir.
+   - Veri setinin kaynağı ve lisans bilgileri belirtilmelidir.
 
-### Prerequisites
+2. **Keşifsel Veri Analizi (EDA)**:
+   - Veri seti içeriğinin tanımlanması
+   - Temel istatistiklerin hesaplanması
+   - Eksik verilerin tespit edilmesi ve işlenmesi
+   - Aykırı değerlerin belirlenmesi
+   - Öznitelikler arasındaki ilişkilerin incelenmesi
+   - Uygun görselleştirmelerin yapılması (histogramlar, kutu grafikleri, dağılım grafikleri vb.)
 
-Before you begin, ensure you have the following installed:
+3. **Makine Öğrenmesi Uygulaması**:
+   - Veri setinize uygun olarak aşağıdakilerden **BİRİNİ** seçip uygulayınız:
+     - **Sınıflandırma**: Hedef değişkeni kategorik ise
+     - **Regresyon**: Hedef değişkeni sayısal ise
+     - **Kümeleme**: Gözetimsiz öğrenme yaklaşımı kullanmak istiyorsanız
 
-- Python 3.8 or higher
-- Git
-- A GitHub account
-- A text editor or IDE (e.g., VS Code, PyCharm)
+4. **Değerlendirme ve Yorumlama**:
+   - Kullanılan modellerin performansının değerlendirilmesi
+   - Sonuçların yorumlanması ve önerilerin sunulması
 
-### Setting Up Your Development Environment
+### Teslim Edilecek Dosyalar
 
-1. **Accept the GitHub Classroom Assignment**
-   - Click on the assignment link shared by your instructor
-   - This will create a personal copy of the project template in your GitHub account
+1. Doldurulmuş `ReadMe_YourProject.md` dosyası (şablonu bu repoda bulabilirsiniz)
+2. Orange proje dosyanız (.ows uzantılı)
+3. Kullandığınız veri seti veya veri setinin erişim bağlantısı
 
-2. **Clone Your Repository**
-   ```bash
-   git clone https://github.com/firat-university-algorithms/your-project-repo.git
-   cd your-project-repo
-   ```
+### Orange Data Mining Kurulumu ve Kullanımı
 
-3. **Create a Virtual Environment**
-   ```bash
-   # On Windows
-   python -m venv venv
-   venv\Scripts\activate
+1. Orange Data Mining platformunu [resmi web sitesinden](https://orangedatamining.com/download/) indirip kurabilirsiniz.
+2. Temel kullanım için [Orange Video Eğitimleri](https://www.youtube.com/c/OrangeDataMining) izlenebilir.
+3. Ayrıca [Orange Dokümantasyonu](https://orangedatamining.com/docs/) detaylı bilgi için faydalı olacaktır.
 
-   # On macOS/Linux
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
+### Örnek İş Akışı
 
-## Project Requirements
+Aşağıda basit bir örnek iş akışı gösterilmiştir:
 
-### Core Components
+![Örnek Orange İş Akışı](img/orange_workflow.png)
 
-Each project must include:
+Repodaki `example` klasöründe örnek bir Orange iş akışı dosyası bulabilirsiniz. 
+Lütfen kendi proje iş akışı dosyanızı yükleyiniz. 
 
-1. **Algorithm Implementation**
-   - Correctly implement your assigned algorithm
-   - Handle edge cases and error conditions
-   - Optimize for performance where possible
+### Değerlendirme Kriterleri
 
-2. **Interactive Interface**
-   - Create user controls to manipulate inputs and parameters
-   - Allow users to adjust algorithm settings and see results in real-time
-   - Provide clear instructions for users
+| Kriter | Ağırlık |
+|--------|---------|
+| Veri seti seçimi ve tanımlama | %15 |
+| Keşifsel veri analizi (EDA) kalitesi | %25 |
+| Makine öğrenmesi uygulaması | %30 |
+| Sonuçların yorumlanması | %20 |
+| Dokümantasyon ve rapor kalitesi | %10 |
 
-3. **Visualization**
-   - Create visual representations of how your algorithm works
-   - Illustrate the algorithm's step-by-step execution
-   - Use appropriate charts, graphs, or custom visualizations
+### Önemli Tarihler
 
-4. **Step-by-Step Explanation**
-   - Include an option to walk through the algorithm's execution
-   - Explain each major step in the algorithm
-   - Highlight key decisions and operations
+- **Proje Duyurusu**: [TARİH]
+- **Teslim Tarihi**: [TARİH], 23:59
 
-5. **Complexity Analysis**
-   - Document the time complexity (Big O notation)
-   - Document the space complexity
-   - Explain how the complexity changes with different inputs
+### Akademik Dürüstlük
 
-6. **Test Cases**
-   - Include various examples demonstrating algorithm behavior
-   - Provide best-case, average-case, and worst-case scenarios
-   - Allow users to input custom test cases
+Bu ödev bireysel bir çalışmadır. Başkalarının çalışmalarını kendinizinmiş gibi sunmak akademik etik kurallarına aykırıdır. 
+Yararlandığınız tüm kaynakları uygun şekilde belirtmeniz gerekmektedir.
 
-### Repository Structure
+### İletişim
 
-Your repository should contain:
+Sorularınız için: [E-POSTA ADRESİ]
 
-```
-project-repository/
-├── app.py                     # Main Streamlit application
-├── algorithm.py               # Implementation of your algorithm
-├── utils.py                   # Helper functions
-├── visualizer.py              # Visualization components
-├── README.md                  # Project documentation
-├── requirements.txt           # Python package dependencies
-├── test_algorithm.py          # Unit tests
-├── examples/                  # Example inputs and outputs
-│   ├── example1.json
-│   └── example2.json
-├── data/                      # Sample data files (if applicable)
-│   ├── sample1.csv
-│   └── sample2.csv
-└── docs/                      # Additional documentation
-    ├── algorithm_description.md
-    └── screenshots/
-        ├── screenshot1.png
-        └── screenshot2.png
-```
+---
 
-## Documentation Requirements
-
-Your README.md should include:
-
-- Project title and description
-- Algorithm explanation with mathematical notation when appropriate
-- Installation and usage instructions
-- Screenshots of the application
-- Complexity analysis with explanations
-- Examples of inputs and outputs
-- Known limitations and future improvements
-- References and resources used
-
-## Deployment Instructions
-
-### Deploying to Streamlit Cloud
-
-1. Create a free account on [Streamlit Cloud](https://streamlit.io/cloud)
-2. Connect your GitHub repository
-3. Configure your app settings
-4. Deploy your application
-5. Add the deployment URL to your README.md
-
-## Evaluation Criteria
-
-Your project will be evaluated based on:
-
-- Correctness of algorithm implementation (40%)
-- Quality of visualization and user interface (20%)
-- Documentation quality (15%)
-- Code organization and clarity (15%)
-- Creativity and additional features (10%)
-
-## Submission Guidelines
-
-1. Ensure your code is well-commented and follows Python best practices
-2. Verify all required components are included
-3. Test your application thoroughly
-4. Update your README.md with all required information
-5. Commit and push your final changes to GitHub
-6. Deploy your application to Streamlit Cloud
-7. Submit the final version by the deadline: **June 23, 2025, 23:59**
-
-## Resources
-
-### Streamlit Resources
-- [Streamlit Documentation](https://docs.streamlit.io)
-- [Streamlit Components](https://streamlit.io/components)
-- [Streamlit Deployment](https://docs.streamlit.io/cloud)
-
-### Algorithm Resources
-- Introduction to Algorithms (CLRS) - 4th Edition
-- Algorithm Design Manual - Steven Skiena
-- [VisuAlgo](https://visualgo.net)
-- [Algorithm Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
-
-### GitHub Resources
-- [Git & GitHub for Beginners](https://docs.github.com/en/get-started)
-- [GitHub Classroom Guide](https://github.com/education/classroom)
-
-## Frequently Asked Questions
-
-**Q: Can I change my assigned algorithm?**  
-A: Only in exceptional cases. Please contact your instructor with a valid reason if you need to request a change.
-
-**Q: Can I use additional libraries beyond the core requirements?**  
-A: Yes, but ensure they are properly documented in your requirements.txt file.
-
-**Q: How detailed should the visualization be?**  
-A: It should clearly illustrate each major step of the algorithm's execution. The visualization should help someone understand how the algorithm works.
-
-**Q: Can I work in groups?**  
-A: No, this is an individual project. Each student has a unique algorithm assignment.
-
-**Q: What if I encounter technical difficulties with Streamlit deployment?**  
-A: Document the issue in your README and we can explore alternative deployment options if necessary.
-
-## Contact Information
-
-For questions or assistance, please contact:
-
-- **Instructor:** Assoc. Prof. Ferhat UÇAR
-- **Office Hours:** 
-  - Fridays: 10:30 - 12:00
-
-- **Office Location:** Technology Faculty - A Section, 3rd floor.
+**Not**: Bu repo, GitHub Classroom üzerinden oluşturulmuştur. Ödevinizi tamamladıktan sonra bu repo üzerinden teslim etmelisiniz.
