@@ -57,7 +57,7 @@ Projeyi tamamlamak için aşağıdaki gereksinimleri yerine getirmeniz gerekmekt
 
 Aşağıda basit bir örnek iş akışı gösterilmiştir:
 
-![Örnek Orange İş Akışı](img/orange_workflow.png)
+![Örnek Orange İş Akışı](img/example_workflow.png)
 
 Repodaki `example` klasöründe örnek bir Orange iş akışı dosyası bulabilirsiniz. 
 Lütfen kendi proje iş akışı dosyanızı yükleyiniz. 
