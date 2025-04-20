@@ -74,18 +74,18 @@ Repodaki `example` klasöründe örnek bir Orange iş akışı dosyası bulabili
 
 ### Önemli Tarihler
 
-- **Proje Duyurusu**: [TARİH]
-- **Teslim Tarihi**: [TARİH], 23:59
+- **Proje Duyurusu**: 20 Nisan 2025
+- **Teslim Tarihi**: 15 Mayıs 2025, 23:59
 
-### Akademik Dürüstlük
+### Akademik Dürüstlük ve Etik Beyanı
 
 Bu ödev bireysel bir çalışmadır. Başkalarının çalışmalarını kendinizinmiş gibi sunmak akademik etik kurallarına aykırıdır. 
 Yararlandığınız tüm kaynakları uygun şekilde belirtmeniz gerekmektedir.
 
 ### İletişim
 
-Sorularınız için: [E-POSTA ADRESİ]
+Sorularınız için: fucar@firat.edu.tr
 
 ---
 
-**Not**: Bu repo, GitHub Classroom üzerinden oluşturulmuştur. Ödevinizi tamamladıktan sonra bu repo üzerinden teslim etmelisiniz.
+**Not**: Bu repo, GitHub Classroom üzerinden assignment ile oluşturulmuştur. Projenizi tamamladıktan sonra GitHub Classroom assignment submit edilmelidir.
